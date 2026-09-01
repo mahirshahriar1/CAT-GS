@@ -1,0 +1,36 @@
+# Model weights and logs
+*.pth
+checkpoints/
+scores/
+runs/
+
+# Datasets
+data/*
+!data/README.md
+
+# Media / archives
+*.zip
+*.rar
+*.tar.gz
+*.mp4
+*.wav
+*.pkl
+*.npy
+
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
